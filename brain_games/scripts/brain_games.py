@@ -1,9 +1,16 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
+"""Корневой сценарий пакета brain_games.
+
+Этот исполняемый файл используется как точка входа
+и запускается пользователем напрямую.
+"""
+
 from brain_games.cli import welcome_user
 
-def main():
-    print("Welcome to the Brain Games!")
+
+def _main():
     welcome_user()
 
+
 if __name__ == '__main__':
-    main()
+    _main()

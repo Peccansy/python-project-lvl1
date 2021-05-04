@@ -1,5 +1,10 @@
+"""Модуль реализует функции по работе с пользовательским вводом."""
+
 import prompt
 
+
 def welcome_user():
-    name = prompt.string("May I have your name? ")
-    print("Hello, {}!".format(name))
+    """Поприветствовать пользователя и предложить ввести своё имя."""
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))
