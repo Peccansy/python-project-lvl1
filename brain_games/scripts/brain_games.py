@@ -8,9 +8,10 @@
 from brain_games.cli import welcome_user
 
 
-def _main():
+def main():
+    """Главная функция сценария игры."""
     welcome_user()
 
 
 if __name__ == '__main__':
-    _main()
+    main()

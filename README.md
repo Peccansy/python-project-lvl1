@@ -4,3 +4,9 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Peccansy/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Peccansy/python-project-lvl1/actions)
+
+
+### Примеры
+
+#### Установка и запуск игры "Нечётные числа"
+[![asciicast](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6.svg)](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6)
