@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-"""Сценарий запускающий игру "Проверка на чётность"."""
+"""Сценарий запускающий игру "Калькулятор"."""
 
 from brain_games.engine import run
-from brain_games.games.even import get_q_and_a, get_rules
+from brain_games.games.calculator.calculator import get_q_and_a, get_rules
 
 
 def main():
