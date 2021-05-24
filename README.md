@@ -8,5 +8,5 @@
 
 ### Примеры
 
-#### Установка и запуск игры "Нечётные числа"
-[![asciicast](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6.svg)](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6)
+#### Игра "НОД"
+[![asciicast](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6.svg)](https://asciinema.org/a/amqzYQkDHnEqHX5Dz1UNZvq6t)
