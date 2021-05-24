@@ -9,4 +9,4 @@
 ### Примеры
 
 #### Игра "НОД"
-[![asciicast](https://asciinema.org/a/KJHLGiEF2f4R7jjmV35RoBju6.svg)](https://asciinema.org/a/amqzYQkDHnEqHX5Dz1UNZvq6t)
+[![asciicast](https://asciinema.org/a/amqzYQkDHnEqHX5Dz1UNZvq6t.svg)](https://asciinema.org/a/amqzYQkDHnEqHX5Dz1UNZvq6t)
