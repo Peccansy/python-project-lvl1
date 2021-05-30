@@ -3,21 +3,10 @@
 Реализует математические выражения для игры "Калькулятор".
 """
 
-from random import randint
-
 from brain_games.games.calculator.evaluators import mul, subtract, summ
+from brain_games.utils.rand_actions import pick_item, pick_number
 
 _OPERATORS = '+-*'
-_MIN_OPERAND = 1
-_MAX_OPERAND = 100
-
-
-def _pick_operand():
-    return randint(_MIN_OPERAND, _MAX_OPERAND)  # noqa: S311
-
-
-def _pick_operator():
-    return _OPERATORS[randint(0, len(_OPERATORS) - 1)]  # noqa: S311
 
 
 def get_expression():
@@ -26,7 +15,7 @@ def get_expression():
     Returns:
         кортеж (операнд, оператор, операнд)
     """
-    return (_pick_operand(), _pick_operator(), _pick_operand())
+    return (pick_number(), pick_item(_OPERATORS), pick_number())
 
 
 def eval_expression(expression):

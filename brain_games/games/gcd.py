@@ -1,12 +1,5 @@
 """Игра 'НОД'."""
-from random import randint
-
-_MIN_QUESTION_VALUE = 1
-_MAX_QUESTION_VALUE = 100
-
-
-def _get_number():
-    return randint(_MIN_QUESTION_VALUE, _MAX_QUESTION_VALUE)  # noqa: S311
+from brain_games.utils.rand_actions import pick_number
 
 
 def _get_answer(param1, param2):
@@ -37,8 +30,8 @@ def get_q_and_a():
     Returns:
         кортеж (вопрос, ответ)
     """
-    left = _get_number()
-    right = _get_number()
+    left = pick_number()
+    right = pick_number()
     answer = _get_answer(left, right)
 
     return ('{0} {1}'.format(left, right), str(answer))

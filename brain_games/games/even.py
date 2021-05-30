@@ -1,12 +1,5 @@
 """Игра 'Нечётные числа'."""
-from random import randint
-
-_MIN_QUESTION_VALUE = 1
-_MAX_QUESTION_VALUE = 100
-
-
-def _get_question():
-    return randint(_MIN_QUESTION_VALUE, _MAX_QUESTION_VALUE)  # noqa: S311
+from brain_games.utils.rand_actions import pick_number
 
 
 def _get_expected_ans(question):
@@ -28,6 +21,6 @@ def get_q_and_a():
     Returns:
         кортеж (вопрос, ответ)
     """
-    question = _get_question()
+    question = pick_number()
     answer = _get_expected_ans(question)
     return (question, answer)
