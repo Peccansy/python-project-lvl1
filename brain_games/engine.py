@@ -41,7 +41,7 @@ def run(get_rules, get_q_and_a):
             print('Correct!')
             succ_count -= 1
         else:
-            print("'{0}' is wrong answer ;(.".format(user_ans), end='')
+            print("'{0}' is wrong answer ;(.".format(user_ans), end=' ')
             print("Correct answer was '{0}'.".format(expected_ans))
             print("Let's try again, {0}!".format(name))
             return
