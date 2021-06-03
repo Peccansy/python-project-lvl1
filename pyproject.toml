@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
-description = ""
+version = "1.0.0"
+description = "Учебный проект курса Python-программист на hexlet.io"
+classifiers = [
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Environment :: Console"
+]
 authors = ["nox-wave"]
 packages = [
     { include = "brain_games" }
 ]
+repository = "https://github.com/Peccansy/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.8"

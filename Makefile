@@ -7,8 +7,8 @@ package-install:
 build:
 	@poetry build
 
-publish:
-	@poetry publish --dry-run
+publish-debug:
+	@poetry publish -r testpypi --dry-run
 
 lint:
 	@poetry run flake8 brain_games
